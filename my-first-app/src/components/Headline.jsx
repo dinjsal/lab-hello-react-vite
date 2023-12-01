@@ -3,21 +3,23 @@ import React from 'react'
 function Headline() {
   return (
     <div class="row align-items-start" className="headline">
-    <div class="col">
-    <p>Say hello to ReactJS</p>
-        <p>You will learn how to use the most popular frontend library,</p>
-        <p>and become a super Ninja developer.</p>
+    <div class="col displayed">
+    <h1>Say hello to ReactJS</h1>
+        <p>You will learn how to use <br />
+        the most popular frontend library,<br />
+        and become a super Ninja developer.</p>
         <button>Awesome!</button>
     </div>
     <div class="col hidden">
-    <p>Say hello to ReactJS</p>
-        <p>You will learn how to use the most popular frontend library,</p>
+        <p>Say hello to ReactJS</p>
+        <p>You will learn how to use</p>
+        <p>the most popular frontend library,</p>
         <p>and become a super Ninja developer.</p>
-        <button>Awesome!</button>
+        <button><p>Awesome!</p></button>
     </div>
     <div class="col hidden">
-    <p>Say hello to ReactJS</p>
-        <p>You will learn how to use the most popular frontend library,</p>
+        <p>You will learn how to use</p>
+        <p>the most popular frontend library,</p>
         <p>and become a super Ninja developer.</p>
         <button>Awesome!</button>
     </div>

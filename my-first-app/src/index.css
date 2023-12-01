@@ -9,7 +9,7 @@ body {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  padding: 20px 50px 20px;
+  padding: 20px 60px 20px;
 
 }
 
@@ -19,12 +19,15 @@ body {
 
 .headline {
   background-color: rgb(40, 39, 39);
-  height: 60vh;
+  height: 90vh;
   background-size: cover;
-  padding-top: 20px;
   margin-bottom: 100px;
   display: flex;
-  color: black;
+  align-items: center;
+  text-align: left;
+  color: white;
+  padding-left: 60px;
+
 }
 
 .icons {
@@ -32,12 +35,43 @@ body {
   flex-direction: column;
   align-items: flex-start;
   justify-content: center;
+  margin-bottom: 30px;
 }
 
 .icons > img {
-  height: 60px;
+  height: 5%;
 }
 
 .hidden {
   visibility: hidden;
 }
+
+.displayed > p {
+  line-height: 1;
+}
+
+h1 {
+  font-size: 70px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+button {
+  background-color: white;
+  height: 50px;
+  border-radius: 8px;
+  padding: 10px 40px 40px;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  border-width: 2px;
+  border-color: #fff;
+}
+
+button:hover {
+  color: white;  
+  background-color: rgba(8, 241, 241, 0.3);
+  transform: scale(1.2);
+  border-width: 2px;
+  border-color: #fff;
+}
+
